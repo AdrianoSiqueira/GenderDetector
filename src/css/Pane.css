@@ -1,0 +1,36 @@
+.pane-background {
+    -fx-alignment: center;
+    -fx-padding: 20;
+
+    -fx-background-image: url('/images/background.jpg');
+    -fx-background-size: cover;
+}
+
+/* ----- Variants for the pane-background */
+#feminine {
+    -fx-background-image: url('/images/feminine.jpg');
+}
+
+#masculine {
+    -fx-background-image: url('/images/masculine.jpg');
+}
+/* ----- Variants for the pane-background */
+
+.pane-component {
+    -fx-alignment: center;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.pane-gender {
+    -fx-alignment: center;
+    -fx-padding: 0;
+
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-background-radius: 30;
+
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 30;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+}

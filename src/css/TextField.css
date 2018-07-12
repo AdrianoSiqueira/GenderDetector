@@ -1,0 +1,29 @@
+@font-face {
+    src: url('/fonts/Sevillana-Regular.ttf');
+}
+
+.text-field {
+    -fx-font: normal normal 70 'Sevillana';
+    -fx-text-alignment: center;
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-padding: -15 30 5 30;
+
+    -fx-highlight-fill: rgba(255, 255, 255, 0);
+    -fx-highlight-text-fill: rgba(0, 0, 0, .5);
+
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 0 100 100 0;
+
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 0 100 100 0;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+}
+
+#feminine {
+    -fx-highlight-text-fill: rgba(255, 0, 0, .5);
+}
+
+#masculine {
+    -fx-highlight-text-fill: rgba(0, 0, 255, .5);
+}
