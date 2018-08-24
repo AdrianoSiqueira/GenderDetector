@@ -13,7 +13,7 @@
 </ul>
 
 <h3>How to use</h3>
-<p>Inside the <b>Build</b> folder there is a package named <b>GenderDetector.jar</b>.</p>
+<p>Inside the <b>build</b> folder there is a package named <b>GenderDetector.jar</b>.</p>
 <p><b>Windows:</b> Just open the file with double click.</p>
 <p><b>Linux:</b> Just open the file with double click. If it does not work, then open a terminal and type: <b><i>java -jar GenderDetector.jar</i></b>.</p>
 <p><b>MacOS:</b> I am not sure, but may be same way as in Linux.</p>
