@@ -1,0 +1,94 @@
+@font-face {
+    src: url('/fonts/Akronim-Regular.ttf');
+}
+
+@font-face {
+    src: url('/fonts/Ewert-Regular.ttf');
+}
+
+@font-face {
+    src: url('/fonts/HennyPenny-Regular.ttf');
+}
+
+@font-face {
+    src: url('/fonts/Sevillana-Regular.ttf');
+}
+
+.field-nome {
+    -fx-font: normal normal 70 'Sevillana';
+    -fx-alignment: center;
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-padding: -15 30 5 30;
+
+    -fx-highlight-fill: rgba(255, 255, 255, 0);
+    -fx-highlight-text-fill: rgba(0, 0, 0, .5);
+
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 0 100 100 0;
+
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 0 100 100 0;
+    -fx-border-width: 5px;
+}
+
+.field-nome#feminino {
+    -fx-highlight-text-fill: rgba(255, 0, 0, .5);
+    -fx-text-fill: red;
+}
+
+.field-nome#masculino {
+    -fx-highlight-text-fill: rgba(0, 0, 255, .5);
+    -fx-text-fill: blue;
+}
+
+.label-nome {
+    -fx-font: normal normal 80 'Akronim';
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+.label-sexo {
+    -fx-font: normal bold 100 'Henny Penny';
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+.label-titulo {
+    -fx-font: normal normal 90 'Ewert';
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-alignment: center;
+    -fx-max-width: infinity;
+}
+
+.label-nome#masculino, .label-nome#feminino,
+.label-titulo#masculino, .label-titulo#feminino {
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+.pane-root {
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+
+    -fx-background-image: url('/images/background.jpg');
+    -fx-background-size: cover;
+}
+
+.pane-root#feminino {
+    -fx-background-image: url('/images/feminine.jpg');
+}
+
+.pane-root#masculino {
+    -fx-background-image: url('/images/masculine.jpg');
+}
+
+.pane-sexo {
+    -fx-alignment: center;
+    -fx-padding: 0;
+
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-background-radius: 30;
+
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 30;
+    -fx-border-width: 5px;
+}
