@@ -4,7 +4,7 @@ import ai.GenderDetector;
 
 public class App {
     public String detectar(final String nomeCompleto) {
-        switch (new GenderDetector().detect(nomeCompleto)) {
+        switch (GenderDetector.detect(nomeCompleto)) {
             case 0:
                 return "Indefinido";
             case 1:
